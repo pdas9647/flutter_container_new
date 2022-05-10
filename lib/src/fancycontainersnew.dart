@@ -35,7 +35,7 @@ class _FancyContainerPDasState extends State<FancyContainerPDas> {
       height: widget.height,
       width: widget.width ?? MediaQuery.of(context).size.width * 0.90,
       decoration: BoxDecoration(
-        borderRadius: BorderRadius.all(const Radius.circular(20.0)),
+        borderRadius: const BorderRadius.all(Radius.circular(20.0)),
         gradient: LinearGradient(
           colors: [
             widget.color1 ?? const Color(0xFFCB1841),
