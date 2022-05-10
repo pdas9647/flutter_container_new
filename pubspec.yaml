@@ -1,10 +1,10 @@
 name: flutter_container_new
-description: A new Flutter project.
-version: 0.0.3
+description: A fancy flutter container package. height, width, color, title, subtitle, padding are the parameters
+version: 0.0.4
 homepage: https://github.com/pdas9647/flutter_container_new
 
 environment:
-  sdk: ">=2.11.1 <3.0.0"
+  sdk: ">=2.12.0 <3.0.0"
   flutter: ">=2.5.0"
 
 dependencies:

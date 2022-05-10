@@ -1,18 +1,18 @@
 import 'package:flutter/material.dart';
 
 class FancyContainerPDas extends StatefulWidget {
-  final double width;
-  final double height;
-  final Color color1;
-  final Color color2;
-  final String title;
-  final Color titleColor;
-  final String subTitle;
-  final Color subTitleColor;
-  final EdgeInsetsGeometry padding;
+  final double? width;
+  final double? height;
+  final Color? color1;
+  final Color? color2;
+  final String? title;
+  final Color? titleColor;
+  final String? subTitle;
+  final Color? subTitleColor;
+  final EdgeInsetsGeometry? padding;
 
   const FancyContainerPDas({
-    Key key,
+    Key? key,
     this.width,
     this.height,
     this.color1,
@@ -59,7 +59,7 @@ class _FancyContainerPDasState extends State<FancyContainerPDas> {
           Padding(
             padding: const EdgeInsets.all(5.0),
             child: Text(
-              widget.title,
+              widget.title!,
               style: TextStyle(
                 color: widget.titleColor,
                 fontSize: 20.0,
@@ -70,7 +70,7 @@ class _FancyContainerPDasState extends State<FancyContainerPDas> {
           Padding(
             padding: const EdgeInsets.all(5.0),
             child: Text(
-              widget.subTitle,
+              widget.subTitle!,
               style: TextStyle(color: widget.subTitleColor, fontSize: 15.0),
             ),
           ),
@@ -79,5 +79,3 @@ class _FancyContainerPDasState extends State<FancyContainerPDas> {
     );
   }
 }
-
-
