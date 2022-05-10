@@ -33,8 +33,9 @@ There are a number of properties that you can modify:
 <table>
  <tr>
   <td>
-```dart
-class FancyScreen extends StatelessWidget {
+  
+   ```dart
+   class FancyScreen extends StatelessWidget {
   const FancyScreen({Key key}) : super(key: key);
 
   @override
@@ -52,7 +53,9 @@ class FancyScreen extends StatelessWidget {
     );
   }
 }
-```
+
+   ```
+   
   </td>
   <td>
     <tr>
