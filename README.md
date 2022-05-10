@@ -31,36 +31,32 @@ There are a number of properties that you can modify:
 <hr>
 
 <table>
- <tr>
-  <td>
+<tr>
+<td>
+
+```dart
+class FancyScreen extends StatelessWidget {  
+  const FancyScreen({Key? key}) : super(key: key);  
   
-   ```dart
-   class FancyScreen extends StatelessWidget {
-  const FancyScreen({Key key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return const Scaffold(
-      backgroundColor: Colors.white,
-      body: Center(
-        child: FancyContainerPDas(
-          title: 'Hello World',
-          color1: Colors.lightGreenAccent,
-          color2: Colors.lightBlueAccent,
-          subTitle: 'This a Fancy Container New Package',
-        ),
-      ),
-    );
-  }
+  @override  
+  Widget build(BuildContext context) {  
+    return Scaffold(  
+      body: Center(  
+        child: const FancyContainer(  
+          title: 'Hello World',  
+          color1: Colors.lightGreenAccent,  
+          color2: Colors.lightBlue,  
+          subtitle: 'This is a new package',  
+        ),  
+      ),  
+    );  
+  }  
 }
+```
 
-   ```
-   
-  </td>
-  <td>
-    <tr>
-        <img src="https://user-images.githubusercontent.com/53579386/126896556-911d4778-04cd-49bf-b32a-01a6eb3b0155.jpeg" alt="">
-    </tr>
-  </td>
- </tr>
+</td>
+<td>
+<img  src="https://user-images.githubusercontent.com/53579386/126896556-911d4778-04cd-49bf-b32a-01a6eb3b0155.jpeg"  alt="">
+</td>
+</tr>
 </table>
